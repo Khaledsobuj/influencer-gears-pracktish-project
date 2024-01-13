@@ -104,6 +104,22 @@ body {
     width: 100%;
 }
 
+/* ================================================== */
+/* start main section styles */
+.sponsor {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.sponsor-img {
+    /* border: 2px solid red; */
+    padding: 25px 10px;
+}
+
+.sponsor-img img {
+    width: 100%;
+}
 
 
 
@@ -119,6 +135,10 @@ body {
     .nav-item,
     .header-banner {
         flex-direction: column;
+    }
+
+    .sponsor {
+        flex-wrap: wrap;
     }
 
     #nav-bir {
@@ -141,8 +161,15 @@ body {
     }
 }
 
+
+
+/* ============================================ */
+/* main section responsiv */
+
+
 /* =============================================================================== */
 @media screen and (min-width:575px) and (max-width:965px) {
+
     #nav-bir {
         flex-direction: column;
     }
