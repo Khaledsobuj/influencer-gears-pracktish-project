@@ -5,3 +5,92 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* this is common styles */
+body {
+    max-width: 1440px;
+    background: #FFF;
+
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.common-color {
+    color: #3A3A3A;
+}
+
+
+/* this is common styles */
+/* ============================================================ */
+/* start header styles */
+#nav-bir {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#nav-bir>ul {
+    display: flex;
+
+}
+
+#nav-bir>ul li {
+    list-style: none;
+    margin-right: 35px;
+
+
+}
+
+#nav-bir>ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.header-banner {
+    margin-top: 50px;
+    border: 2px solid #f00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {}
+
+.banner-titel {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4.3rem;
+
+}
+
+.banner-description {
+    font-weight: 600;
+}
+
+.btn-common {
+    padding: 10px 25px;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+    margin: 30px 0;
+}
+
+.banner-images {
+    background-image: url('../images/Circle design.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-images img {
+    width: 100%;
+}
