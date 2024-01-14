@@ -126,7 +126,7 @@ section {
 }
 
 .popular-collection {
-    /* border: 2px solid #f00; */
+    position: relative;
 }
 
 .popular-title {
@@ -170,6 +170,8 @@ section {
     border: 0;
     background-color: #fff;
     margin-top: 20px;
+    position: absolute;
+    right: 1px;
 }
 
 .featured {
@@ -198,6 +200,7 @@ section {
     border: 0;
     margin: 30px 0;
     cursor: pointer;
+
 }
 
 .btn-sq:hover {
@@ -209,6 +212,27 @@ footer {
     color: #fff;
     text-align: center;
     padding: 50px 150px;
+}
+
+.social-icon {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icon .icone {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #6C6C6C;
+    ;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
 }
 
 
